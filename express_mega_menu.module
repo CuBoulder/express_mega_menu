@@ -1,0 +1,21 @@
+<?php
+
+
+
+function express_mega_menu_menu() {
+  $items = array();
+  $items['admin/structure/mega-menu/%express_mega_menu/edit'] = array(
+    'access callback' => TRUE,
+    'page callback' => 'entity_form',
+    'page arguments' => array('mega_menu', 3),
+    'title' => 'Edit Mega Menu',
+  );
+
+  return $items;
+}
+
+function express_mega_menu_load($id) {
+  //$entity = entity_load('mega_menu', array($id));
+  //return array_pop($entity);
+  return array();
+}

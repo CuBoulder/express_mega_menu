@@ -1,0 +1,4 @@
+name = Express Mega Menu
+description = Adds mega menu functionality to top level menu items.
+core = 7.x
+version = 7.x-1.0
